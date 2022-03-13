@@ -1,14 +1,14 @@
 <html>
 <head>
-<title>Validar si la contraseña y la repetición de la contraseña son iguales</title>
-<script>
+   <title>Inicio de sesion</title>
+   <script>
 function comprobarClave(){
     clave1 = document.f1.clave1.value
     clave2 = document.f1.clave2.value
      
 
-    if (clave1 == "Brallan" && clave2 == "Godoy"){
-       alert("Los Datos Coinciden...\n Bienvenido");
+    if (clave1 == "BrallanGodoy" && clave2 == "12345"){
+       alert("Inicio de sesion exitoso\n Bienvenido");
         var href =  "dos.html";
         window.location=href;
          }
@@ -23,19 +23,19 @@ function comprobarClave(){
 </script>
 </head>
 
-<body>
+<body background="z.jpg" width="940px" height="1000px">
+      </a>
 
-<h1>Validar si la contraseña y la repetición de la contraseña son iguales</h1>
-<br>
-Escribe una supuesta contraseña dos veces, una en cada campo, y pulsa el botón. Javascript te dirá si las dos son iguales.
 
+<br><center>
+<h1><p><font size="5"><div style="width: 300px; height: 300px;border:3px solid black;">Inicio de sesion
 <br>
-<form action="" name="f1">
-Contraseña: <input type="password" name="clave1" size="20">
+<form action="" name="f1"><p align="left"><center>
+Nombre de usuario</p><input type="password" name="clave1" size="20">
 <br>
-Repite contraseña: <input type="password" name="clave2" size="20">
-<br>
-<input type="button" value="Comprobar si son iguales" onClick="comprobarClave()">
+<p align="left"><center>Contraseña</p> <input type="password" name="clave2" size="20"></center>
+<br><center>
+<input type="button" value="Iniciar Sesion" onClick="comprobarClave()"></div></h1></font></p>
 
 </form>
 
